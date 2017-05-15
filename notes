@@ -153,8 +153,54 @@ Van der Merwe I.
  u'Zhang Ze',
  u'Zhang Zh.
 
+----------------------------------------
+2) Verify if bets of all matches have a value. No NaNs?
 
- Don't forget to review this information later. Just making a change to test git.
+('Count: ', 26726)
 
- Adding two more lines.
- Yeah.
+26726 entries don't have average betting values
+
+..
+
+('Count: ', 3595)
+Only 3595 have no entries for any of the betting sites.
+
+Maybe only consider the matches which have atleast one odds?
+
+
+
+('Count: ', 441)
+Only 441 matches in range(5463, 43141) don't have atleast one odds! Not bad.
+
+
+------------------------------------------------
+3) Iterate to see all ATP series types. 250, 500 etc.
+
+-------------------------
+
+4) Average matches played over 2 years - visualisation?
+
+
+
+-----------------------
+5) Player head to head! oh god.
+
+--------------
+6) Use Wpts, Lpts! ATP points as of the start of the tournament
+
+----------------
+7) Use total number of games won?
+
+
+-----------
+8) Add 'Round' as a feature?
+
+----------
+
+
+9) Maybe, instead of having win percentages of the players as 2 features, subtract one from another and keep it as a single feature? Think this would be definitely better.
+
+
+-------------
+
+10) Find the lowest rank in the dataset, and assign it to NR? Now assinging 1000
