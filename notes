@@ -204,3 +204,7 @@ Only 441 matches in range(5463, 43141) don't have atleast one odds! Not bad.
 -------------
 
 10) Find the lowest rank in the dataset, and assign it to NR? Now assinging 1000
+26 rows with NR in LRank.
+0 rows with NR in WRank.
+
+---------------
